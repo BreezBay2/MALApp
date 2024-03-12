@@ -12,6 +12,8 @@
 		2F6356902B9FD77400B00A1C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F63568F2B9FD77400B00A1C /* ViewController.swift */; };
 		2F6356952B9FD77500B00A1C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F6356942B9FD77500B00A1C /* Assets.xcassets */; };
 		2F6356982B9FD77500B00A1C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F6356962B9FD77500B00A1C /* LaunchScreen.storyboard */; };
+		2F6356A02B9FDAFF00B00A1C /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F63569F2B9FDAFF00B00A1C /* Data.swift */; };
+		2F6356A22B9FDB6600B00A1C /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F6356A12B9FDB6600B00A1C /* NetworkManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		2F6356942B9FD77500B00A1C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2F6356972B9FD77500B00A1C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2F6356992B9FD77500B00A1C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2F63569F2B9FDAFF00B00A1C /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		2F6356A12B9FDB6600B00A1C /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				2F6356942B9FD77500B00A1C /* Assets.xcassets */,
 				2F6356962B9FD77500B00A1C /* LaunchScreen.storyboard */,
 				2F6356992B9FD77500B00A1C /* Info.plist */,
+				2F63569F2B9FDAFF00B00A1C /* Data.swift */,
+				2F6356A12B9FDB6600B00A1C /* NetworkManager.swift */,
 			);
 			path = MALApp;
 			sourceTree = "<group>";
@@ -136,7 +142,9 @@
 			files = (
 				2F6356902B9FD77400B00A1C /* ViewController.swift in Sources */,
 				2F63568C2B9FD77400B00A1C /* AppDelegate.swift in Sources */,
+				2F6356A22B9FDB6600B00A1C /* NetworkManager.swift in Sources */,
 				2F63568E2B9FD77400B00A1C /* SceneDelegate.swift in Sources */,
+				2F6356A02B9FDAFF00B00A1C /* Data.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
