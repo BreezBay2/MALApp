@@ -7,10 +7,10 @@
 
 import Foundation
 
-struct Data: Codable {
+struct Data: Codable, Hashable {
     let data: [Anime]
 }
 
-struct Anime: Codable {
+struct Anime: Codable, Hashable {
     let title: String
 }

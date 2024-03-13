@@ -16,6 +16,9 @@
 		2F6356A22B9FDB6600B00A1C /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F6356A12B9FDB6600B00A1C /* NetworkManager.swift */; };
 		2F6356A42B9FDDAE00B00A1C /* MALTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F6356A32B9FDDAE00B00A1C /* MALTabBarViewController.swift */; };
 		2F6356A62B9FDFA000B00A1C /* FavoritesListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F6356A52B9FDFA000B00A1C /* FavoritesListViewController.swift */; };
+		2FAF00612BA1309A00C4DFA2 /* AnimeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FAF00602BA1309A00C4DFA2 /* AnimeCell.swift */; };
+		2FAF00632BA130E800C4DFA2 /* AnimeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FAF00622BA130E800C4DFA2 /* AnimeView.swift */; };
+		2FAF00652BA134BD00C4DFA2 /* UIHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FAF00642BA134BD00C4DFA2 /* UIHelper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +33,9 @@
 		2F6356A12B9FDB6600B00A1C /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		2F6356A32B9FDDAE00B00A1C /* MALTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MALTabBarViewController.swift; sourceTree = "<group>"; };
 		2F6356A52B9FDFA000B00A1C /* FavoritesListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesListViewController.swift; sourceTree = "<group>"; };
+		2FAF00602BA1309A00C4DFA2 /* AnimeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimeCell.swift; sourceTree = "<group>"; };
+		2FAF00622BA130E800C4DFA2 /* AnimeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimeView.swift; sourceTree = "<group>"; };
+		2FAF00642BA134BD00C4DFA2 /* UIHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIHelper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +78,9 @@
 				2F6356A12B9FDB6600B00A1C /* NetworkManager.swift */,
 				2F6356A32B9FDDAE00B00A1C /* MALTabBarViewController.swift */,
 				2F6356A52B9FDFA000B00A1C /* FavoritesListViewController.swift */,
+				2FAF00602BA1309A00C4DFA2 /* AnimeCell.swift */,
+				2FAF00622BA130E800C4DFA2 /* AnimeView.swift */,
+				2FAF00642BA134BD00C4DFA2 /* UIHelper.swift */,
 			);
 			path = MALApp;
 			sourceTree = "<group>";
@@ -146,9 +155,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2FAF00632BA130E800C4DFA2 /* AnimeView.swift in Sources */,
 				2F6356902B9FD77400B00A1C /* AnimeListViewController.swift in Sources */,
 				2F6356A42B9FDDAE00B00A1C /* MALTabBarViewController.swift in Sources */,
+				2FAF00652BA134BD00C4DFA2 /* UIHelper.swift in Sources */,
 				2F63568C2B9FD77400B00A1C /* AppDelegate.swift in Sources */,
+				2FAF00612BA1309A00C4DFA2 /* AnimeCell.swift in Sources */,
 				2F6356A22B9FDB6600B00A1C /* NetworkManager.swift in Sources */,
 				2F63568E2B9FD77400B00A1C /* SceneDelegate.swift in Sources */,
 				2F6356A62B9FDFA000B00A1C /* FavoritesListViewController.swift in Sources */,
